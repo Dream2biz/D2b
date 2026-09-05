@@ -151,7 +151,8 @@
   .comp-body{padding:0 24px 26px 24px;}
   .comp-body .ct-label{font-family:var(--mono); font-size:10.5px; color:var(--violet); letter-spacing:.08em; margin:14px 0 8px;}
   .comp-topics{display:flex; flex-wrap:wrap; gap:8px;}
-  .comp-topics span{font-family:var(--mono); font-size:11.5px; color:var(--muted); border:1px solid var(--line); padding:6px 12px; border-radius:14px;}
+  .comp-topics span{font-family:var(--mono); font-size:11.5px; color:var(--muted); border:1px solid var(--line); padding:6px 12px; border-radius:14px; transition:color .2s ease, border-color .2s ease, background .2s ease;}
+  .comp-topics span:hover{color:var(--phosphor); border-color:var(--phosphor); background:var(--phosphor-dim); cursor:default;}
   .comp-meta{display:flex; flex-wrap:wrap; gap:22px; margin-top:16px; padding-top:14px; border-top:1px solid var(--line-soft);}
   .comp-meta div{font-size:13px; color:var(--muted);}
   .comp-meta strong{display:block; font-family:var(--mono); font-size:10.5px; letter-spacing:.06em; color:var(--amber); margin-bottom:4px; font-weight:500;}
